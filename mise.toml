@@ -1,0 +1,13 @@
+[tools]
+## vfox flutter doesn't work
+"asdf:asdf-community/asdf-flutter" = "3.27.1-stable"
+
+[hooks]
+postinstall = [
+  "mise x asdf:asdf-community/asdf-flutter -- flutter config --no-analytics",
+  "mise x asdf:asdf-community/asdf-flutter -- flutter --disable-analytics"
+]
+
+[settings]
+experimental = true ## For hooks
+pin = true
