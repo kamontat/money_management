@@ -1,6 +1,6 @@
-# money_management
+# YAMM - Money Management
 
-Yet another money management application
+Yet Another Money Management application.
 
 ## Getting Started
 
