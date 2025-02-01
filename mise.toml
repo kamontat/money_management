@@ -1,6 +1,7 @@
 [tools]
 ## vfox flutter doesn't work
 "asdf:asdf-community/asdf-flutter" = "3.27.1-stable"
+java = "temurin-21.0.5+11.0.LTS"
 
 [hooks]
 postinstall = [
