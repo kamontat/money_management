@@ -14,4 +14,4 @@ _flutter build web \
   --pwa-strategy offline-first
 
 _exec cp -r "$_BUILD_WEB_PATH" \
-  "$_TARGET_WEB_PATH"
+  "$_TARGET_WEB_PATH/.."
